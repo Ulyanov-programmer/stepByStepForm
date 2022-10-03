@@ -1,0 +1,92 @@
+:root {
+  --main-font-family: inter;
+  --text-c: black;
+  --bg: #f6f5ff;
+}
+
+._container {
+  margin: auto;
+}
+@media (min-width: 1440px) {
+  ._container {
+    width: 50vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1440px) {
+  ._container {
+    width: 60vw;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  ._container {
+    width: 80vw;
+  }
+}
+@media (max-width: 426px) {
+  ._container {
+    width: 95vw;
+  }
+}
+
+label {
+  cursor: pointer;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+input[type=radio], input[type=checkbox] {
+  display: none;
+}
+input[type=file] {
+  display: none;
+}
+textarea {
+  scrollbar-width: 0;
+  resize: none;
+}
+textarea::-webkit-scrollbar {
+  width: 0;
+  outline: none;
+}
+
+input[type=password] {
+  font-family: caption;
+}
+
+input[type=date]::-webkit-datetime-edit {
+  /* all input, but not calendar button */
+  background: greenyellow;
+}
+input[type=date]::-webkit-datetime-edit-fields-wrapper {
+  /* only date values */
+  background: yellow;
+}
+input[type=date]::-webkit-datetime-edit-text {
+  /* elements between numbers */
+  background: gray;
+}
+input[type=date]::-webkit-datetime-edit-month-field {
+  /* month */
+}
+input[type=date]::-webkit-datetime-edit-day-field {
+  /* day */
+}
+input[type=date]::-webkit-datetime-edit-year-field {
+  /* year */
+}
+input[type=date]::-webkit-inner-spin-button {
+  /* i don't now what is that */
+  display: none;
+}
+input[type=date]::-webkit-calendar-picker-indicator {
+  /* calendar button */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

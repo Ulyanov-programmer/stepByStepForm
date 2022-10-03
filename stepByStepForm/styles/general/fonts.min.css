@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "dm";
+  font-display: swap;
+  src: url("../../fonts/dm-sans-v11-latin-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "inter";
+  font-display: swap;
+  src: url("../../fonts/inter-v12-latin-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "inter";
+  font-display: swap;
+  src: url("../../fonts/inter-v12-latin-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}

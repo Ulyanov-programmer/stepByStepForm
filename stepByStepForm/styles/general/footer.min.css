@@ -1,0 +1,29 @@
+:root {
+  --main-font-family: inter;
+  --text-c: black;
+  --bg: #f6f5ff;
+}
+
+._container {
+  margin: auto;
+}
+@media (min-width: 1440px) {
+  ._container {
+    width: 50vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1440px) {
+  ._container {
+    width: 60vw;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  ._container {
+    width: 80vw;
+  }
+}
+@media (max-width: 426px) {
+  ._container {
+    width: 95vw;
+  }
+}
